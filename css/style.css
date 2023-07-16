@@ -4,3 +4,30 @@
 font-family: 'Poppins', sans-serif;
 color: #373838  ;
  }
+
+ .tape
+ {
+     width: 100%;
+    padding: 25px 5% ;
+    position: relative;
+ }
+
+
+.tape i 
+{
+     padding: 8px;
+     color: #1b1515;
+     border: solid 1px #1b1515;
+     margin: 5px;
+     border-radius: 50%;
+
+}
+
+.tape .fa-gear
+{
+   position: absolute; 
+   right: 5%;
+   border: none;
+   font-size: 25px;
+   color: #629cd3 ;
+}
