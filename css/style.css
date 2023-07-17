@@ -5,6 +5,8 @@ font-family: 'Poppins', sans-serif;
 color: #373838  ;
  }
 
+ /************* tape ************/
+
  .tape
  {
      width: 100%;
@@ -30,4 +32,158 @@ color: #373838  ;
    border: none;
    font-size: 25px;
    color: #629cd3 ;
+}
+
+ /************* navbar ************/
+ 
+ #navbar
+ {
+    padding: 25px 120px;
+    background-color: #373838;
+  }
+
+
+#nav-link 
+{
+    color: #fff;
+    padding:  15px;
+    font-size: 18px;
+margin: 0 4px;
+font-weight: 590;
+}
+
+ 
+
+#nav-link:hover
+{
+    background-color: #629cd3;
+    border-radius: 15px;
+}
+
+
+.navbar-nav 
+{
+     margin-left: 25%;
+}
+
+ .dropdown
+ {
+    display: none;
+ }
+
+
+ /************** start carousel **************/
+
+ .carousel-item
+ {
+   padding: 40px;
+   background-image: url('../images/background\ 1.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   
+ }
+ .carousel-item img 
+ {
+   width: 65%;
+ }
+
+ .side-data h1
+ {
+   margin-top: 40px;
+   color: #373838;
+   font-size: 450x;
+   font-weight: 900;
+   font-family: 'Montserrat', sans-serif;
+}
+
+   .side-data h2
+   {
+     color: #629cd3;
+     font-size: 40px;
+     font-weight: 900;
+     font-family: 'Montserrat', sans-serif;
+     }
+
+     .side-data p 
+     {
+      color: #2e3030;
+      font-size: 20px;
+
+     }
+
+     .free-consultation 
+     {
+      margin-top: 70px;
+      padding: 10px 29px;
+      margin-right: 18px;
+      border: none;
+      background-color: #629cd3;
+      color: #fff;
+      font-size: 17px;
+      border-radius: 10px;
+      font-weight: 550;
+     }
+
+
+     .Complete-Work
+
+     {
+      margin-top: 70px;
+      padding: 10px 29px;
+      margin-right: 18px;
+      border: none;
+      background-color: #373838;
+      color: #fff;
+      font-size: 17px;
+      border-radius: 10px;
+      font-weight: 550;
+     }
+
+     #control-carousel
+     {
+      background-color: #373838;
+      height: 17px;
+      width: 17px;
+      border-radius: 50%;
+      margin-left: 12px;
+
+     }
+
+/***************** counter *****************/
+
+.counter 
+{
+   padding-top: 30px;
+background-color: #373838;
+color: #fff;
+ }
+
+#count1,#count2,#count3
+{
+   font-weight: 650;
+   color: #fff;
+   font-size: 30px;
+   font-family: 'Montserrat', sans-serif;
+
+}
+.plus 
+{
+   color: #fff;
+   font-weight: 650;
+   padding: 20px 0;
+   font-size: 30px;
+}
+
+.img-counter 
+{
+   width: 15%;
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.under-heading
+{
+   color: #fff;
+   font-weight: 100;
+   padding-top: 7px;
 }
