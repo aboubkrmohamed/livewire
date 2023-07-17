@@ -34,8 +34,8 @@
     <nav class="navbar navbar-expand-lg navbar-light " id="navbar" >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">img</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button"  id="togg" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" ></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown" style="margin-left: 30px;">
             <ul class="navbar-nav"  >
@@ -46,20 +46,19 @@
               </li>
 
 
-              <li class="nav-item" >
+              <li class="nav-item single-option" >
                 <a class="nav-link" href="#" id="nav-link">Meet The Guru's</a>
               </li>
          
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle"  id="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
+                  Meet The Guru's
                 </a>
                 
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul class="dropdown-menu" id="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" id="dropdown-item" href="#">Join Our Team</a></li>
+         
                 </ul>
               </li>
 
@@ -85,7 +84,7 @@
     <!------------------start slide----------------->
 
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
+      <div class="carousel-indicators" id="carousel-indicators">
         <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" id="control-carousel" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" id="control-carousel"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" id="control-carousel"></button>
@@ -137,8 +136,7 @@
             <div class="col-md-6 side-data">
               <h1>Welcome To LiveWire </h1>
               <h2>Restaurant Marketing </h2>
-              <p>LiveWire is a full service Digital Marketing Company with a specialization
-                in the Restaurant Industry. Here to save you money & grow your
+              <p>LiveWire is a full service Digital Marketing Company with a specialization in the Restaurant Industry. Here to save you money & grow your
                 restaurant!
                 </p>
                 <button class="free-consultation">Free Consultation</button>
@@ -154,11 +152,11 @@
  
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon" aria-hidden="true" id="icon-carousel-icon"></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon" aria-hidden="true" id="icon-carousel-icon"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>

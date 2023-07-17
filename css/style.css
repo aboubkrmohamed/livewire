@@ -91,7 +91,7 @@ font-weight: 590;
  {
    margin-top: 40px;
    color: #373838;
-   font-size: 450x;
+   font-size: 45px;
    font-weight: 900;
    font-family: 'Montserrat', sans-serif;
 }
@@ -187,3 +187,415 @@ color: #fff;
    font-weight: 100;
    padding-top: 7px;
 }
+
+
+#togg 
+{
+   background-color: #629cd3;
+   border: none;
+ }
+/*******
+
+media query
+
+********/
+
+/***      1200px------>992px      ***/
+
+@media screen and (max-width:1252px) and (min-width:992px)
+
+{
+   
+ /************* navbar ************/
+ 
+ #navbar
+ {
+    padding: 20px 10px;
+    
+  }
+
+
+#nav-link 
+{
+    
+    padding:  14px;
+    font-size: 17px;
+margin: 0 4px;
+
+}
+
+.navbar-nav 
+{
+     margin-left: 25%;
+}
+
+
+ /************** start carousel **************/
+ 
+ .carousel-item img 
+ {
+   width: 65%;
+ }
+
+ .side-data h1
+ {
+   margin-top: 40px;
+    font-size: 40px;
+  }
+
+   .side-data h2
+   {
+      font-size: 35px;
+      }
+
+     .side-data p 
+     {
+       font-size: 18px;
+
+     }
+
+     .free-consultation 
+     {
+      margin-top: 20px;
+      padding: 8px 20px;
+       font-size: 15px;
+      
+     }
+
+
+     .Complete-Work
+
+     {
+      margin-top: 20px;
+      padding: 8px 20px;
+       font-size: 15px;
+     }
+
+     #control-carousel
+     {
+       height: 17px;
+      width: 17px;
+      border-radius: 50%;
+      margin-left: 12px;
+
+     }
+
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***      992px------>768px      ***/
+
+@media screen and (max-width:992px) and (min-width:768px)
+
+{
+   
+  /************* navbar ************/
+ 
+  #navbar
+  {
+     padding: 20px 10px;
+      
+     
+   }
+ 
+
+#nav-link 
+{
+    color: #fff;
+    padding:  5px;
+    font-size: 18px;
+margin: 0px 4px;
+font-weight: 590;
+text-align:center;
+}
+
+ 
+
+#nav-link:hover
+{
+    background-color: #629cd3;
+    border-radius: 15px;
+}
+
+
+.navbar-nav 
+{
+     margin-left: 25%;
+     margin-top: 15px;
+}
+
+.single-option
+{
+   display: none;
+}
+#dropdown-menu
+{
+   background-color: transparent;
+    text-align: center;
+    border: none;
+}
+
+#dropdown-item
+{
+   color: #fff;
+}
+ .dropdown
+ {
+    display:block;
+ }
+
+ 
+ /************** start carousel **************/
+ 
+ 
+ .side-data h1
+ {
+   margin-top: 15px;
+    font-size: 30px;
+  }
+
+   .side-data h2
+   {
+      font-size: 25px;
+      }
+
+     .side-data p 
+     {
+       font-size: 14px;
+
+     }
+
+     .free-consultation 
+     {
+      margin-top: 15px;
+      padding: 6px 16px;
+       font-size: 13px;
+      
+     }
+
+
+     .Complete-Work
+
+     {
+      margin-top: 15px;
+      padding: 6px 16px;
+       font-size: 13px;
+     }
+
+     #control-carousel
+     {
+       height: 15px;
+      width: 15px;
+       margin-left: 11px;
+
+     }
+
+ 
+}
+
+@media screen and (max-width:890px) and (min-width:768px)
+{
+/************** start carousel **************/
+ 
+ 
+.side-data h1
+{
+  margin-top: 13px;
+   font-size: 25px;
+ }
+
+  .side-data h2
+  {
+     font-size: 20px;
+     }
+
+    .side-data p 
+    {
+      font-size: 12px;
+
+    }
+
+    .free-consultation 
+    {
+     margin-top: 12px;
+     padding: 5px 13px;
+      font-size: 12px;
+     
+    }
+
+
+    .Complete-Work
+
+    {
+     margin-top: 12px;
+     padding: 5px 13px;
+      font-size: 12px;
+    }
+
+    #control-carousel
+    {
+      height: 15px;
+     width: 15px;
+      margin-left: 11px;
+
+    }
+
+}
+
+/***      768px-------------->      ***/
+
+@media screen and (max-width:768px) 
+
+{
+   .tape
+   {
+      background-color: red;
+      display: none;
+   }
+   
+   
+  /************* navbar ************/
+ 
+  #navbar
+  {
+     padding: 20px 10px;
+      
+     
+   }
+ 
+
+#nav-link 
+{
+    color: #fff;
+    padding:  5px;
+    font-size: 18px;
+margin: 0px 4px;
+font-weight: 590;
+text-align:center;
+}
+
+ 
+
+#nav-link:hover
+{
+    background-color: #629cd3;
+    border-radius: 15px;
+}
+
+
+.navbar-nav 
+{
+     margin-left: 25%;
+     margin-top: 15px;
+}
+
+.single-option
+{
+   display: none;
+}
+#dropdown-menu
+{
+   background-color: transparent;
+    text-align: center;
+    border: none;
+}
+
+#dropdown-item
+{
+   color: #fff;
+}
+ .dropdown
+ {
+    display:block;
+ }
+
+ 
+ /************** start carousel **************/
+
+ .carousel-item
+ {
+   padding: 0;
+   text-align: center;
+   
+ }
+ .carousel-item img 
+ {
+   width: 25%;
+   margin: auto;
+  }
+
+ 
+.side-data h1
+{
+  margin-top: 13px;
+   font-size: 25px;
+ }
+
+  .side-data h2
+  {
+     font-size: 20px;
+     }
+
+    .side-data p 
+    {
+      font-size: 12px;
+
+    }
+
+    .free-consultation 
+    {
+     margin-top: .2px;
+     padding: 5px 13px;
+      font-size: 12px;
+      margin-bottom: 20px;
+     
+    }
+
+
+    .Complete-Work
+
+    {
+     margin-top: 12px;
+     padding: 5px 13px;
+      font-size: 12px;
+    }
+
+    #carousel-indicators
+    {
+      display: none;
+    }
+
+    #icon-carousel-icon
+    {
+      background-color: #373838;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+    }
+
+    /****** counter *****/
+
+    .img-counter 
+{
+   width: 15%;
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-top: 12px;
+}
+}
+
+
