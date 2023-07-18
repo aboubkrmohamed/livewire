@@ -365,6 +365,83 @@ background-repeat: no-repeat;
    width: 100%;
  }
 
+
+ /*****************Booking************/
+
+ .booking
+ {
+   padding-top: 60px;
+   background-image: url('../images/background\ 5.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+ }
+
+ .booking-img 
+ {
+   width: 100%;
+ }
+ 
+ .booking-data h6
+ {
+   font-size: 32px;
+   font-style: initial;
+   font-weight: 850;
+   line-height: 42px;
+   
+ }
+
+ .booking-data h5
+ {
+   color: #629cd3;
+   font-weight: 900;
+   font-size: 29px;
+   padding-top: 12px;
+   font-family: 'Montserrat', sans-serif ;
+
+ }
+
+ .booking-data p 
+ {
+   font-weight: 580;
+   font-size: 22px;
+
+ }
+
+ .booking-data button
+ {
+   border: none;
+   padding: 8px 32px;
+   background-color: #629cd3;
+   color: #fff;
+   position: relative;
+   border-radius: 10px 0px 0px 10px ;
+   font-weight: 800;
+   font-size: 25px;
+ }
+ .icon-btn
+ {
+   background-color: rgb(245, 244, 244);
+   position: absolute;
+   font-size: 36px;
+   position: absolute;
+   
+   top: 0;
+   right: -90px;
+   width: 50%;
+   border-radius: 0px 10px 10px 0px ;
+   
+
+  }
+
+  .icon-btn i 
+  {
+   color: #629cd3;
+   font-weight: 900
+
+  }
+
+
+
 /*******
 
 media query
@@ -481,6 +558,30 @@ margin: 0 4px;
 {
    line-height: 27px;
 }
+
+/************* boost **************/
+.img-logo-boost
+{
+   width: 15%;
+   background-color: #fff;
+   margin-left: 150px;
+}
+
+.qrcode-side
+{
+   width: 25%; 
+   height: 30%;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+.boost-data span
+{
+    font-size: 38px;
+   padding: 12px ;
+  
+} 
+
      
 }
 
@@ -631,8 +732,79 @@ text-align:center;
 {
    line-height: 20px;
 }
-      
+      /************* boost **************/
+.img-logo-boost
+{
+   width: 15%;
+   background-color: #fff;
+   margin-left: 150px;
+}
+
+.qrcode-side
+{
+   width: 23%; 
+   height: 28%;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+  
+#comment {
+    height: 210px;
+   width: 410px; 
+  
+}
  
+#comment h6
+{
+ 
+   margin-top: 18px;
+   padding: 8px;
+ 
+}
+
+
+.boost-data span
+{
+    font-size: 30px;
+   padding: 11px ;
+  
+}
+
+
+ /*****************Booking************/
+
+  
+ .booking-img 
+ {
+   width: 120%;
+ }
+ 
+ .booking-data h6
+ {
+   font-size: 28px;
+    line-height: 37px;
+   
+ }
+
+ 
+ .booking-data p 
+ {
+   font-weight: 580;
+   font-size: 20px;
+
+ }
+ 
+
+  .icon-btn i 
+  {
+   color: #629cd3;
+   font-weight: 900
+
+  }
+
+
+
 }
 
 
@@ -683,6 +855,53 @@ text-align:center;
       margin-left: 11px;
 
     }
+
+          /************* boost **************/
+ 
+
+.qrcode-side
+{
+   width: 30%; 
+   height: 28%;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+  
+#comment {
+    height: 230px;
+   width: 410px; 
+  
+}
+
+#comment h5
+{
+font-size: 15px;
+}
+ 
+#comment h6
+{
+ 
+   margin-top: 18px;
+   padding: 8px;
+ 
+}
+
+.img-logo-boost
+{
+   width: 15%;
+   background-color: #fff;
+   margin-left: 150px;
+}
+
+.img-logo-boost
+{
+   width: 23%;
+    margin-left: 90px;
+}
+
+ 
+ 
 
     
 }
@@ -828,6 +1047,122 @@ text-align:center;
     padding-bottom: 10px;
     margin-top: 12px;
 }
+
+
+/*********** Restaurant Programs ************/
+ 
+.service-logo
+{
+   width: 5%;
+ }
+
+.opreations-programming img
+
+{
+   width: 24%;
+}
+.programs-features .service-heading
+{
+    font-size: 15px;
+ 
+ }
+ 
+ .parent  .opreations-programming
+ {
+    margin-top: 12px;
+ }
+
+          /************* boost **************/
+ 
+
+.qrcode-side
+{
+   width: 30%; 
+   height: 28%;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+  
+#comment {
+    height: 175px;
+   width: 300px; 
+  
+}
+
+#comment h5
+{
+font-size: 11px;
+}
+ 
+#comment h6
+{
+ 
+   margin-top: 15px;
+   padding: 5px;
+ font-size: 11px;
+}
+
+.img-logo-boost
+{
+   width: 22%;
+    margin-left: 55px;
+}
+ 
+.boost-data span
+{
+    font-size: 22px;
+   padding: 10px ;
+  
+}
+
+
+ /*****************Booking************/
+
+  
+ .booking-data h6
+ {
+   font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+   
+ }
+ .booking-data h5 
+ {
+   text-align: center;
+ }
+
+ 
+ .booking-data p 
+ {
+   font-weight: 580;
+   font-size: 20px;
+   text-align: center;
+
+ }
+ 
+ .booking-data
+ {
+   text-align: center;
+ }
+
+ .booking-data button 
+ {
+   margin: 20px;
+ }
+
+  .icon-btn i 
+  {
+   color: #629cd3;
+   font-weight: 900
+
+  }
+
+.rocketPhoto  img
+{
+   width: 80%;
+}
+ 
 }
 
  
