@@ -5,6 +5,7 @@ font-family: 'Poppins', sans-serif;
 color: #373838  ;
  }
 
+
  /************* tape ************/
 
  .tape
@@ -194,6 +195,176 @@ color: #fff;
    background-color: #629cd3;
    border: none;
  }
+
+/*********** Restaurant Programs ************/
+
+.restaurant-programs
+{
+   padding-top:50px ;
+   background-color: #373838;
+   width: 100%;
+}
+.side-image-photo-restaurant img
+{
+   width: 100%;
+}
+
+.programs-features 
+{
+   background-color: #fff;
+   background-image: url( '../images/background\ 2.png');
+   background-size: 100% 100%;
+background-repeat: no-repeat;
+
+   width: 100%;
+   margin-left: -12px;
+   padding: 40px ;
+}
+
+.programs-features .service-heading
+{
+   margin: 20px;
+   font-size: 30px;
+   font-family: 'Montserrat', sans-serif;
+
+ }
+
+.service-logo
+{
+   width: 5%;
+   margin-left: 50px;
+}
+
+.features-item
+{
+   text-align: center;
+    margin:30px 30px 0 30px;   
+    box-sizing: border-box;
+
+}
+
+.opreations-programming
+{
+   
+   font-family: 'Montserrat', sans-serif;
+   border: 1px solid #373838;
+   padding: 20px;
+   border-radius: 55px;
+ }
+
+.opreations-programming img
+
+{
+   width: 20%;
+}
+
+.opreations-programming h5 
+{
+   font-family: 'Montserrat', sans-serif ;
+   font-weight: 100;
+   margin-top: 9px;
+}
+.opreations-programming p 
+{
+   font-size: 20px;
+}
+
+.qr-p
+{
+   font-size: 10px; 
+   line-height: 26px;
+}
+
+.vip-p 
+{
+   line-height: 33px;
+}
+
+
+
+
+/***************** Boost Your Numbers ************/
+
+
+.boost
+{
+   background-color: #373838;
+   width: 100%;
+   padding: 100px 10px 10px 60px;
+}
+.boost-icon
+{
+   width: 9%;
+
+}
+
+.boost-data span
+{
+   color: #fff;
+   font-size: 38px;
+   padding: 12px ;
+   font-weight: 650;
+   font-family: 'Montserrat', sans-serif ;
+
+}
+
+.boost-data p 
+{
+   margin-top: 34px;
+   color: #fff;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 19px;
+}
+ 
+#comment {
+   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 74%, 50% 100%, 38% 74%, 0% 75%);
+   height: 200px;
+   width: 400px; 
+   background-color: rgb(226, 226, 226);
+   border-radius: 30px 30px;
+   text-align: center;
+   padding: 20px;
+   margin-top: 40px;
+}
+#comment h5
+{
+   font-family: 'Montserrat', sans-serif ;
+ 
+} 
+#comment h6
+{
+   font-family: 'Montserrat', sans-serif ;
+   color: #629cd3;
+   border:1px solid #373838;
+   margin-top: 18px;
+   padding: 8px;
+   border-radius: 20px;
+}
+
+.qrcode-side
+{
+   width: 15%; 
+   height: 20%;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+.img-logo-boost
+{
+   width: 15%;
+   background-color: #fff;
+   margin-left: 120px;
+}
+.rocketPhoto
+{
+   padding: 90px;
+}
+
+.rocketPhoto img
+{
+   width: 100%;
+ }
+
 /*******
 
 media query
@@ -281,19 +452,37 @@ margin: 0 4px;
      }
 
      
+/*********** Restaurant Programs ************/
+ 
+.service-logo
+{
+   width: 8%;
+ }
+
+.opreations-programming img
+
+{
+   width: 22%;
 }
 
+ 
+.opreations-programming p 
+{
+   font-size: 15px;
+}
 
+.qr-p
+{
+   font-size: 16px; 
+   line-height: 20px;
+}
 
-
-
-
-
-
-
-
-
-
+.vip-p 
+{
+   line-height: 27px;
+}
+     
+}
 
 
 /***      992px------>768px      ***/
@@ -403,8 +592,50 @@ text-align:center;
 
      }
 
+     /*********** Restaurant Programs ************/
+ 
+.service-logo
+{
+   width: 5%;
+ }
+
+.opreations-programming img
+
+{
+   width: 22%;
+}
+.programs-features .service-heading
+{
+    font-size: 20px;
+ 
+ }
+
+.opreations-programming p 
+{
+   font-size: 12px;
+}
+
+.opreations-programming h5
+
+{
+   font-size: 15px;
+}
+
+.qr-p
+{
+   font-size: 16px; 
+   line-height: 17px;
+}
+
+.vip-p 
+{
+   line-height: 20px;
+}
+      
  
 }
+
+
 
 @media screen and (max-width:890px) and (min-width:768px)
 {
@@ -453,6 +684,7 @@ text-align:center;
 
     }
 
+    
 }
 
 /***      768px-------------->      ***/
@@ -598,4 +830,4 @@ text-align:center;
 }
 }
 
-
+ 
